@@ -250,8 +250,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
                                 : '${weather!.humidity}%',
                           ),
 
-                          // The API does not provide sun strength.
-                          // Keep the assignment placeholder.
+                         
                           _buildWeatherDetail(
                             Icons.light_mode_outlined,
                             '8hr',
